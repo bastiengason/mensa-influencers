@@ -1,0 +1,127 @@
+#pricing {
+  min-height: 100vh;
+  background-color: $brand-blue-light;
+  padding-top: 105px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 100px;
+
+  @media screen and (max-width: 375px) {
+    padding-top: 50px;
+  }
+}
+
+.card-pricing {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 590px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: 375px) {
+    margin-bottom: 50px;
+  }
+}
+
+.card-pricing-footer {
+  position: relative;
+  background-color: $purple;
+  height: 200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-pricing-content {
+  padding-top: 25px;
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.circle-checked {
+  color: $purple;
+  float: left;
+  margin-top: 4px;
+  margin-left: 23%;
+  margin-right: 20px;
+}
+
+.circle-unchecked {
+  color: $gray-circle;
+  float: left;
+  margin-top: 5px;
+  margin-left: 23%;
+  margin-right: 20px;
+}
+
+.pricing-spec {
+  text-decoration: none;
+  margin-bottom: 25px;
+  font-size: 16px;
+
+  p {
+    font-weight: 300;
+  }
+}
+
+.amount-followers {
+  text-align: center;
+  margin-bottom: 25px;
+  color: $gray;
+  font-weight: 300;
+  font-size: 20px;
+
+  span {
+    font-size: 14px;
+  }
+}
+
+.pricing-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+.price {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 300;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+
+.cup-coffee {
+  margin-top: 45px;
+  color: $purple;
+
+  @media screen and (max-width: 375px) {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+.yearly {
+  margin-top: 5px;
+  color: $brand-blue-light;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

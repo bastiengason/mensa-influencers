@@ -1,0 +1,38 @@
+#contact {
+  height: 85vh;
+  position: relative;
+  background: image-url('bg-contact.png') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  z-index: -10;
+
+  @media screen and (max-width: 375px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.iphone-mock-up {
+  position: absolute;
+  width: 30%;
+  right: 15%;
+  bottom: -240px;
+  z-index: -1;
+}
+
+.contact-us {
+  padding-top: 30vh;
+  font-size: 29px;
+  font-weight: 500;
+  color: $purple;
+  line-height: 1.6;
+
+  .we-can-help {
+    color: $purple;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 375px) {
+    padding-top: 22vh;
+  }
+}

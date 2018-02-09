@@ -1,0 +1,101 @@
+#why {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background: image-url('bg-contact.png') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+.tututu {
+  color: $gray;
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 1.5;
+  margin-bottom: 100px;
+  font-weight: 300;
+
+  @media screen and (max-width: 375px) {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.card-type {
+
+  @media screen and (max-width: 375px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h3 {
+    padding-bottom: 20px;
+    color: $brand-blue;
+    font-weight: 600;
+    @media screen and (max-width: 375px) {
+      text-align: center;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 30px;
+    li {
+      padding-bottom: 10px;
+
+      span.left {
+        opacity: 0.5;
+        margin: 0 0 0 10px;
+      }
+
+      span.right {
+        opacity: 0.5;
+        margin: 0 10px 0 0;
+      }
+    }
+  }
+}
+
+.card-type-desc {
+  color: $gray;
+  font-weight: 200;
+  padding-bottom: 30px;
+  line-height: 1.9;
+}
+
+.content-right {
+  text-align: right;
+  padding-right: 50px;
+  @media screen and (max-width: 375px) {
+    padding-right: 20px;
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+.content-left {
+  text-align: left;
+  padding-left: 50px;
+  @media screen and (max-width: 375px) {
+    padding-left: 20px;
+    padding-top: 90px;
+  }
+}
+
+.icon-card-type {
+  height: 50px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+

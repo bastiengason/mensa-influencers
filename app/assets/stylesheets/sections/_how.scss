@@ -1,0 +1,58 @@
+#how {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background: image-url('bg-contact.png') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  @media screen and (max-width: 375px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
+.feature {
+  margin-bottom: 150px;
+
+  @media screen and (max-width: 375px) {
+    margin-bottom: 80px;
+  }
+}
+
+.feature-content {
+  display: flex;
+  height: 300px;
+}
+
+.feature-content-vert {
+  margin: auto;
+}
+
+.feature-illu {
+  width: auto;
+  height: 300px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  @media screen and (max-width: 375px) {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.feature-title {
+  color: $gray;
+  margin-bottom: 30px;
+}
+
+.features-desc {
+  color: $gray;
+  line-height: 1.5;
+  font-weight: 300;
+}

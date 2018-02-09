@@ -1,0 +1,10 @@
+fr:
+  landing:
+    navbar:
+      discover: "Découvrir"
+      how_it_works: "Comment ça marche"
+      pricing: "Prix"
+      about: "A propos"
+      contact_us: "Nous contacter"
+    buttons:
+      primary_button: "Commencez"

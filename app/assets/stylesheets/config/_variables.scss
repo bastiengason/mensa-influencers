@@ -1,0 +1,81 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+$base-font: "Open Sans", "Helvetica", "sans-serif";
+$header-font: "Rubik", "Helvetica", "sans-serif";
+
+// Font-size and line-height
+$base-size: 18px;
+$base-height: 1.4;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+// Scheme
+$brand-green: #D371FF;
+$brand-green-light: #B8FFD9;
+
+$brand-blue: #FFE471;
+$brand-blue-light: RGBA(255, 241, 184, 1.00);
+$brand-blue-opacity: RGBA(211, 113, 255, .8);
+
+$new-blue: #156293;
+
+$red: #FC5252;
+$red-light: #FE8989;
+
+$purple: #ffd211;
+
+$blue: #74CEFF;
+$blue-light: #ADE9FF;
+$green: #00BD9C;
+$yellow: #F5A623;
+$yellow-light: #FBD248;
+
+$turquoise: #50E3C2;
+$turquoise-light: #88F3E3;
+$turquoise-dark: #8BDBC9;
+
+$gray: #626262;
+$gray-circle: #afafaf;
+
+$grayform: #F0F0F0;
+
+$graytext: #7E7E7E;
+$gray-concrete: #D0D0D0;
+
+
+/* -------------------------------------
+ * Bootstrap sass variable
+ * (see http://getbootstrap.com/customize/#less-variables)
+ * ------------------------------------- */
+
+// General style
+$font-family-sans-serif:  $base-font;
+$body-bg:                 $gray;
+$font-size-base:          $base-size;
+$line-height-base:        $base-height;
+$headings-font-family:    $header-font;
+
+// Semantic color scheme
+// => http://getbootstrap.com/customize/#colors
+$gray-base:       $gray;
+$brand-primary:   $blue;
+$brand-success:   $brand-green;
+$brand-info:      $yellow-light;
+$brand-danger:    $red;
+$brand-warning:   $yellow;
+
+// Buttons / inputs radius
+$border-radius-base:  2px;
+$border-radius-large: 2px;
+$border-radius-small: 2px;
+
+// Form
+$input-border-focus: $brand-green;
+$link-hover-color : inherit;
+$link-hover-decoration : inherit;
+
+
+// $alert-danger-bg : $brand-color;
+

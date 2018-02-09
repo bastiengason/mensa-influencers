@@ -1,0 +1,45 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Config
+@import "config/utilities";
+@import "config/variables";
+
+// Components
+@import "components/buttons";
+@import "components/navbar";
+@import "components/form";
+
+// Sections
+@import "sections/banner";
+@import "sections/why";
+@import "sections/how";
+@import "sections/pricing";
+@import "sections/contact";
+@import "sections/footer";
+@import "sections/confirm_section";
+@import "sections/thankyou_section";
+
+// Pages
+@import "pages/faq";
+@import "pages/blog";
+@import "pages/terms";
+@import "pages/jobs";
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: $brand-blue;
+  margin-bottom: 55px;
+}
+
+hr {
+  border: $gray solid 1px;
+  opacity: 0.1;
+}

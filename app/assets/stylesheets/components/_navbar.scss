@@ -1,0 +1,120 @@
+.navbar-recovr {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8%;
+  padding-right: 8%;
+  a {
+    color: rgba(255, 255, 255, .8);
+
+    &:focus,
+    &:hover {
+      color: white;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar-recovr-mobile {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+  @media screen and (max-width: 375px) {
+    padding-top: 20px;
+  }
+}
+
+.second-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 3px 15px RGBA(0, 0, 0, 0.1);
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8%;
+  padding-right: 8%;
+  a {
+    color: $brand-blue-opacity;
+
+    &:focus,
+    &:hover {
+      color: $brand-green;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+}
+
+.counter {
+  background: black;
+  color: #fff;
+  position: fixed;
+  top: 120px;
+  right: 0;
+}
+
+.nav-logo {
+  width: 120px;
+  display: inline;
+}
+
+.nav-logo-mobile {
+  width: 135px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-element {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.iggrow-logo-blue {
+  color: blue;
+}
+
+.iggrow-logo {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+
+  &:hover {
+    font-weight: 600 !important;
+  }
+}
+
+
+
+

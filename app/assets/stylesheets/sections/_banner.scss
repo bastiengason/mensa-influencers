@@ -1,0 +1,93 @@
+#banner {
+  height: 100vh;
+  background: image-url('bg-main.png') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  padding: 8%;
+
+  @media screen and (max-width: 375px) {
+    height: 100vh;;
+    text-align: center;
+  }
+}
+
+.banner-title {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 12vh;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: 375px) {
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 17vh;
+  }
+}
+
+.banner-desc {
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: 375px) {
+    font-size: 18px;
+  }
+}
+
+.insta-word {
+  color: $brand-green;
+  font-size: 38px;
+  font-weight: 600;
+  @media screen and (max-width: 375px) {
+    font-size: 25px;
+  }
+}
+
+
+.super-social-word {
+  color: $brand-green;
+  font-size: 30px;
+  font-weight: 600;
+  @media screen and (max-width: 375px) {
+    font-size: 22px;
+  }
+}
+
+.banner-pages {
+  min-height: 45vh;
+  background-color: $brand-blue;
+  text-align: center;
+  background: image-url('bg-banner-pages.png') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  h1 {
+    padding-top: 150px;
+    color: white;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

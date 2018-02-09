@@ -1,0 +1,11 @@
+.pl20 {
+  padding-left: 20px;
+}
+
+.mlrauto-mobile {
+  @media screen and (max-width: 375px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
