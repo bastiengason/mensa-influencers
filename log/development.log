@@ -175,3 +175,45 @@ Processing by ApplicationController#home as HTML
 Completed 200 OK in 4945ms (Views: 4939.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-09 20:34:31 +0100
+Processing by ApplicationController#home as HTML
+  Rendering application/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.8ms)
+  Rendered application/_banner.html.erb (0.7ms)
+  Rendered application/_why.html.erb (10.2ms)
+  Rendered application/_how.html.erb (12.4ms)
+  Rendered application/_pricing.html.erb (14.7ms)
+  Rendered application/_contact.html.erb (3.4ms)
+  Rendered shared/_footer.html.erb (10.5ms)
+  Rendered application/home.html.erb within layouts/application (88.9ms)
+Completed 200 OK in 8535ms (Views: 8529.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-10 20:28:42 +0100
+Processing by ApplicationController#home as HTML
+  Rendering application/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1006.7ms)
+  Rendered application/_banner.html.erb (1.0ms)
+  Rendered application/_why.html.erb (2.3ms)
+  Rendered application/_how.html.erb (4.9ms)
+  Rendered application/_pricing.html.erb (5.4ms)
+  Rendered application/_contact.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (3.3ms)
+  Rendered application/home.html.erb within layouts/application (1065.4ms)
+Completed 200 OK in 1775ms (Views: 1227.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-10 20:29:42 +0100
+Processing by ApplicationController#home as HTML
+  Rendering application/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.0ms)
+  Rendered application/_banner.html.erb (0.7ms)
+  Rendered application/_why.html.erb (6.1ms)
+  Rendered application/_how.html.erb (7.3ms)
+  Rendered application/_pricing.html.erb (6.9ms)
+  Rendered application/_contact.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (6.1ms)
+  Rendered application/home.html.erb within layouts/application (68.4ms)
+Completed 200 OK in 6619ms (Views: 6613.1ms)
+
+
